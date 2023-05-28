@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe 生成活动文件",
+			"command": "D:/APPstation/MinGW/mingw64/bin/g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"D:\\code\\atca\\code-Exercise\\exe\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "D:/APPstation/MinGW/mingw64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: D:/APPstation/MinGW/mingw64/bin/g++.exe"
+		}
+	]
+}
