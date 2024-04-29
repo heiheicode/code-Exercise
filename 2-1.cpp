@@ -31,5 +31,10 @@ int main()
 	    14515114353
 	    145143532
 	    15413454326
+    struct MyStruct {
+    unsigned char aa;
+    unsigned char bb;
+    MyStruct(unsigned char bb_ , unsigned char aa_): aa(aa_), bb(bb_) {}
+    inline unsigned short getAB() { return ((unsigned short)aa<<8) + (unsigned short)bb;
     return 0;
 }
