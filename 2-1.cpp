@@ -36,5 +36,8 @@ int main()
     unsigned char bb;
     MyStruct(unsigned char bb_ , unsigned char aa_): aa(aa_), bb(bb_) {}
     inline unsigned short getAB() { return ((unsigned short)aa<<8) + (unsigned short)bb;
+    std::cout << sizeof(buffer) << std::endl; // 使用std::cout来输出
+    std::cout << result << std::endl;
+    std::cout << strlen(buffer) << std::endl; // 输出buffer的实际长度
     return 0;
 }
