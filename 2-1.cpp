@@ -15,5 +15,9 @@ int main()
     Derived(){};
     ~Derived(){};
     virtual void printClass(int num = 20) override {printf("Derived num is : %d\n", num);};
+    #include <iostream>
+    #include <cstring>
+    #include <iostream>
+    using namespace std;
     return 0;
 }
